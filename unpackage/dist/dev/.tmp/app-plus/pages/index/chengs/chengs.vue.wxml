@@ -1,0 +1,1 @@
+<import src="/components/ss-select-city/ss-select-city.vue.wxml" /><template name="1260de79"><view class="_view data-v-243f099c demo"><template value="{{value}}" bindchange="handleProxy" bindon-select="handleProxy" data-eventid="{{'1260de79-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'1260de79-0'],$root}}" is="08128684"></template></view></template>

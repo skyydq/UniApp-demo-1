@@ -1,0 +1,27 @@
+
+.nicheng-xiugai{
+	margin:0 20rpx;
+	padding-top:20rpx;
+	padding-bottom: 10rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-bottom:solid 1px #ddd;
+	font-size: 15px;
+	line-height: 52rpx;
+}
+.nicheng-input{
+	color:#666;
+	max-width: 500rpx;
+}
+.ziliao-right{
+	font-size: 14px;
+	border:solid 1px #e42208;
+	width:150rpx;
+	text-align: center;
+	color:#e42208;
+	padding:6rpx 0;
+	margin:20rpx auto;
+}
+

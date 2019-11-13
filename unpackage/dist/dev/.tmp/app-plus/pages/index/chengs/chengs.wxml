@@ -1,0 +1,2 @@
+<import src="./chengs.vue.wxml" />
+    <template is="1260de79" data="{{ ...$root['0'], $root }}"/>

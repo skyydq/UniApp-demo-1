@@ -1,0 +1,144 @@
+.page-login{
+	text-align: center;
+	background: #fff;
+}
+.login-img{
+	width:100%;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 1;
+}
+.page-login-from{
+	position: relative;
+	z-index: 10;
+}
+.login-logo{
+	width:198rpx;
+	height:227rpx;
+	margin-top: 100rpx;
+	
+	margin-top:80rpx;
+	
+}
+.login-cont{
+	width:640rpx;
+	margin:90rpx auto 70rpx auto;
+	
+	margin-top:50rpx;
+	
+	padding:40rpx 20rpx;
+	border:solid 1px #f2f2f2;
+	border-radius: 14rpx;
+	color:#fff;
+	-webkit-box-shadow:0px 2px 10px #eee;
+	        box-shadow:0px 2px 10px #eee;
+}
+.login-title{
+	padding-bottom:20rpx;
+}
+.login-gwj{
+	width:236rpx;
+	height:75rpx;
+}
+.input-zh,.input-mima,.yzma{
+	font-size: 14px;
+	color:#666;
+	text-align: left;
+	background:#f2f2f2;
+	border-radius: 14rpx;
+	width:90%;
+	margin:26rpx auto;
+	padding:16rpx 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.input-zh input,.input-mima input{
+	width:100%;
+}
+.yzicon,.zhicon,.mimaicon,.zhicon2{
+	padding-top: 10rpx;
+	margin-right:14rpx;
+	color:#ff8400;
+}
+.fsyzma{
+	height:50rpx;
+	text-align: center;
+	line-height: 50rpx;
+	font-size: 13px;
+	color:#CB0000;
+	padding:0 20rpx;
+}
+.mima-zhuce{
+	width:90%;
+	margin:auto;
+	font-size: 13px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	color:#aaa;
+}
+.login-btn button{
+	width:300rpx;
+	height:80rpx;
+	line-height: 80rpx;
+	font-size: 15px;
+	background:#a10101;
+	color:#fff;
+}
+.login-btn uni-button:after{
+	border:0;
+}
+.text-dl,.text-zcxy{
+	font-size: 12px;
+	color:#aaa;
+	margin:20rpx auto;
+	margin-top: 40rpx;
+}
+.zcxy{
+	color:#cd3232;
+}
+.qq_wx{
+	width:220rpx;
+	height:100rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin:auto;
+}
+.qq_wx image{
+	width:40rpx;
+	height:40rpx;
+	padding:15rpx;
+	border-radius: 50%;
+}
+.qq_wx image:nth-child(1){
+	border:solid 1px #1195DA;
+}
+.qq_wx image:nth-child(2){
+	border:solid 1px #1AA034;
+}
+.text-zcxy{
+	line-height: 50rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+

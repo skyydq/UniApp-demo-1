@@ -1,0 +1,118 @@
+.dongtai-top {
+  position: relative;
+  width: 750rpx;
+  height: 340rpx;
+}
+.dongtai-top .dongtai-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 340rpx;
+  z-index: 1;
+}
+.dongtai-top .dongtai-top-cont {
+  position: absolute;
+  top: 20rpx;
+  left: 35rpx;
+  z-index: 10;
+  text-align: center;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 680rpx;
+  height: 300rpx;
+  background: rgba(0, 0, 0, 0.3);
+}
+.dongtai-top .dongtai-top-cont .dongtai-top-fabiao {
+  position: absolute;
+  right: 20rpx;
+  top: 10rpx;
+}
+.dongtai-top .dongtai-top-cont .dongtai-top-fabiao text {
+  font-size: 26px;
+  opacity: 0.85;
+}
+.dongtai-top .dongtai-top-cont .dongtai-toux {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  border: solid 1px #eee;
+  margin: 0 auto;
+  margin-top: 40rpx;
+}
+.dongtai-top .dongtai-top-cont .dongtai-top-zil {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20rpx;
+}
+.dongtai-top .dongtai-top-cont .dongtai-top-zil .dongtai-top-name {
+  font-size: 17px;
+  line-height: 40rpx;
+}
+.dongtai-cont {
+  padding: 40rpx;
+}
+.dongtai-cont .dongt-ss {
+  background: #eee;
+  border-radius: 14rpx;
+  overflow: hidden;
+}
+.dongtai-cont .dongt-ss .dongt-text {
+  font-size: 14px;
+  padding: 20rpx;
+  border: solid 1px #eee;
+}
+.dongtai-cont .dongt-ss .dongt-bot {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: #fff;
+  border: solid 1px #eee;
+  border-bottom-left-radius: 14rpx;
+  border-bottom-right-radius: 14rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  padding: 0 14rpx;
+}
+.dongtai-cont .dongt-ss .dongt-bot .dongt-time {
+  font-size: 13px;
+}
+.dongtai-cont .dongt-ss .dongt-bot .dongt-icon text {
+  font-size: 20px;
+  padding: 0 10rpx;
+}
+.dongtai-cont .dongt-ss .dongt-bot .dongt-icon .dianz-color {
+  color: #f05500;
+}
+.dongtai-cont .dongt-dianzan {
+  margin: 10rpx 0 50rpx;
+  line-height: 30rpx;
+}
+.dongtai-cont .dongt-dianzan text {
+  font-size: 12px;
+  display: inline-block;
+}
+.dongtai-cont .dongt-dianzan .dont-dz {
+  color: #f7ae00;
+}
+

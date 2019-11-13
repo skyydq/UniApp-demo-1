@@ -1,0 +1,14 @@
+
+.status_bar {  
+	height: 25px;  
+	width: 100%;
+}
+.top_view {  
+	height: 25px;  
+	width: 100%;  
+	position: fixed;  
+	background-color: rgba(0,0,0,.4);  
+	top: 0;  
+	z-index: 999;
+}
+

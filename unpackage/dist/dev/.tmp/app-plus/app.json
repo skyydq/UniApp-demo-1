@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar",
+    "pages/hello/hello",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/index/sous/sous",
+    "pages/dingd/dingd",
+    "pages/xiaox/xiaox",
+    "pages/my/my",
+    "pages/fabu/fabu",
+    "pages/login/login2",
+    "pages/login/wjmima",
+    "pages/my/shezhi/shezhi",
+    "pages/sousuo2/sousuo2",
+    "pages/xiaox/liaotian/liaotian",
+    "pages/xiaox/chat",
+    "pages/index/chengs/chengs",
+    "components/pictureTailor",
+    "pages/xiaox/phones/phones",
+    "pages/xiaox/phones/phone-search",
+    "pages/my/ziliao",
+    "pages/my/nicheng/nicheng",
+    "pages/news/news",
+    "pages/news/news_page",
+    "pages/gongjiang/gongjiang",
+    "pages/gongjiang/gongjiang-page",
+    "pages/banzu/banzu",
+    "pages/banzu/banzu-page",
+    "pages/osousuo/osousuo",
+    "pages/dongtai/dongtai",
+    "pages/dongtai/pinglun",
+    "pages/dongtai/fabiao"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "工无界",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#aaaaaa",
+    "selectedColor": "#e42108",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff"
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "工无界-app",
+  "compilerVersion": "1.9.3"
+}

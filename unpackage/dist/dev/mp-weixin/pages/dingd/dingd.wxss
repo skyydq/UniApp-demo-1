@@ -1,0 +1,99 @@
+.gongc-top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 690rpx;
+	height:90rpx;
+	line-height: 90rpx;
+	z-index: 99;
+	background:#f4f4f4;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding:0 30rpx;
+	
+}
+.gongc-left{
+	font-size: 15px;
+	color:#333;
+}
+.gongc-right{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.gongc-right .gongc-icon{
+	font-size: 18px;
+	color:#666;
+}
+.gongc{
+	padding:0 20rpx;
+	padding-top:90rpx;
+}
+.gongc-list{
+	width:100%;
+	height:200rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-top: 20rpx;
+	color:#fff;
+	position: relative;
+}
+.gc-bg{
+	position: absolute;
+	bottom:0;
+	right:0;
+	height:100%;
+	width:50%;
+	z-index: 1;
+}
+.gongc-fabu{
+	background:#7275f4;
+}
+.wup-zulin{
+	background:#f56b55;
+}
+.gongj-zhaopin{
+	background:#9bcd50;
+}
+.gongc-title{
+	height:60rpx;
+	margin-left:40rpx;
+	margin-top:64rpx;
+	padding:0 20rpx;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50rpx;
+	border-bottom: solid 1px #fff;
+}
+.gongc-img{
+	width:140rpx;
+	height:140rpx;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top:30rpx;
+	margin-right:40rpx;
+	z-index: 10;
+	position: relative;
+}
+.gc-img{
+	width:100%;
+	height:100%;
+}
+

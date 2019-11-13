@@ -1,0 +1,145 @@
+.sous-top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height:80rpx;
+	line-height: 80rpx;
+	z-index: 99;
+	background:#fff;
+	
+	
+	padding-top:var(--status-bar-height);
+	
+}
+.sous-cont{
+	margin-bottom: 20rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding:0 20rpx;
+	padding-top:100rpx;
+	font-size: 13px;
+	color:#666;
+}
+.sous-xuanz{
+	line-height: 66rpx;
+}
+.sous-fenleis{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.sous-top2{
+	padding:10rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.sous-icon{
+	font-size: 24px;
+	height:60rpx;
+	width:80rpx;
+	text-align: center;
+	line-height: 86rpx;
+}
+.sous-input{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	position: relative;
+}
+.sous-txt{
+	background:#eee;
+	font-size: 13px;
+	width:420rpx;
+	
+	height:60rpx;
+	margin:10rpx 0;
+	color:#333;
+	padding:6rpx 40rpx 0 66rpx;
+}
+.sous-sous{
+	position: absolute;
+	top:4rpx;
+	left:24rpx;
+	z-index: 10;
+	font-size: 14px;
+	color:#666;
+}
+.sous-wz{
+	width:140rpx;
+	
+	height:60rpx;
+	line-height: 60rpx;
+	text-align: center;
+	margin-top:5px;
+	font-size: 15px;
+}
+.sous-but{
+	color:#999;
+	text-align: center;
+}
+.remen-sous{
+	padding:0 20rpx;
+}
+.remen-title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding-bottom: 10rpx;
+}
+.sousuo-border{
+	width:140rpx;
+	margin:0 20rpx;
+	height:1px;
+	border-bottom:solid 1px #ddd;
+}
+.remen-text{
+	font-size: 13px;
+	padding-top: 20rpx;
+	color:#666;
+}
+.remen-icon{
+	padding-top:20rpx;
+	font-size: 14px;
+	color:#999;
+}
+.remen-cont{
+	font-size: 14px;
+	color:#666;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.remen-cont text{
+	background:#eee;
+	padding:4px 14rpx;
+	margin:10rpx;
+}
+.sous-fenleis view{
+	border:solid 1px #ddd;
+	padding:4rpx 20rpx;
+	margin:10rpx;
+}
+.sous-fenleis .active{
+	border:solid 1px #d9310f;
+	color:#d9310f;
+}
+

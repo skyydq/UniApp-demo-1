@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "retui-title": "/components/retui-title",
+    "nav-bar": "/components/nav-bar"
+  }
+}

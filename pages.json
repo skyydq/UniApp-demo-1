@@ -1,0 +1,276 @@
+{
+    "pages" : [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+		    "path" : "pages/tabbar/tabbar",
+		    "style" : {
+				"app-plus" : {
+				    "titleNView" : false
+				}
+			}
+		},
+		// #ifndef MP-WEIXIN
+		{
+		    "path" : "pages/hello/hello",
+		    "style" : {
+		        "app-plus" : {
+		            "titleNView" : false
+		        }
+		    }
+		},
+		// #endif
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+		        "app-plus" : {
+		            "titleNView" : false,
+		            "animationType" : false
+		        }
+		    }
+		},
+		
+        {
+            "path" : "pages/index/index",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+		// #ifdef MP-WEIXIN
+		{
+		    "path" : "pages/hello/hello",
+		    "style" : {
+		        "app-plus" : {
+		            "titleNView" : false
+		        }
+		    }
+		},
+		// #endif
+        {
+            "path" : "pages/index/sous/sous",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/dingd/dingd",
+            "style" : {
+                "titleNView" : false
+            }
+        },
+        {
+            "path" : "pages/xiaox/xiaox",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/my/my",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/fabu/fabu",
+            "style" : {}
+        },
+        {
+            "path" : "pages/login/login2",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false,
+                    "animationType" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/login/wjmima",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false,
+                    "animationType" : false
+                }
+            }
+        },
+        {
+            "path" : "pages/my/shezhi/shezhi",
+            "style" : {
+                "navigationBarTitleText" : "设置"
+            }
+        },
+        {
+            "path" : "pages/sousuo2/sousuo2",
+            "style" : {
+                "navigationBarTitleText" : "搜索"
+            }
+        },
+        {
+            "path" : "pages/xiaox/liaotian/liaotian",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+		{
+		    "path" : "pages/xiaox/chat",
+		    "style" : {
+		       "style" : {
+		       	"navigationBarTitleText" : "好友"
+		       }
+		    }
+		},
+        {
+            "path" : "pages/index/chengs/chengs",
+            "style" : {
+				"navigationBarTitleText" : "选择位置"
+			}
+        },
+        {
+            "path" : "components/pictureTailor",
+            "style" : {}
+        },{ 
+			"path" : "pages/xiaox/phones/phones", 
+			"style" : { 
+				"navigationBarTitleText" : "好友列表", 
+				"app-plus":{ 
+					"bounce":"none",
+					"scrollIndicator":"none"
+				}
+			}
+		}, 
+		{ 
+			"path" : "pages/xiaox/phones/phone-search", 
+			"style" : { 
+				"navigationBarTitleText" : "搜索好友"
+			} 
+		}
+        ,{
+            "path" : "pages/my/ziliao",
+            "style" : { 
+            	"navigationBarTitleText" : "资料修改"
+            } 
+        }
+        ,{
+            "path" : "pages/my/nicheng/nicheng",
+            "style" : { 
+            	"navigationBarTitleText" : "昵称修改"
+            }
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+		{
+            "path" : "pages/news/news_page",
+            "style" : {
+                "navigationBarTitleText" : "资讯详情页"
+            }
+        }
+        ,{
+            "path" : "pages/gongjiang/gongjiang",
+            "style" : {
+        		"app-plus" : {
+        		    "titleNView" : false
+        		}
+        	}
+        }
+		,{
+		    "path" : "pages/gongjiang/gongjiang-page",
+		    "style" : {
+				"navigationBarTitleText" : "工匠详情"
+			}
+		}
+        ,{
+            "path" : "pages/banzu/banzu",
+            "style" : {
+                "app-plus" : {
+                    "titleNView" : false
+                }
+            }
+        },
+		{
+            "path" : "pages/banzu/banzu-page",
+            "style" : {
+                "navigationBarTitleText" : "班组详情"
+            }
+        }
+        ,{
+            "path" : "pages/osousuo/osousuo",
+            "style" : {
+				"navigationBarTitleText" : "搜索"
+			}
+        }
+        ,{
+            "path" : "pages/dongtai/dongtai",
+            "style" : {
+        		"navigationBarTitleText" : "个人动态"
+        	}
+        },
+		{
+            "path" : "pages/dongtai/pinglun",
+            "style" : {
+				"navigationBarTitleText" : "评论"
+			}
+        },
+		{
+            "path" : "pages/dongtai/fabiao",
+            "style" : {
+				"navigationBarTitleText" : "动态发表"
+			}
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "工无界",
+        "navigationBarBackgroundColor" : "#F8F8F8",
+        "backgroundColor" : "#F8F8F8"
+    },
+    "tabBar" : {
+        "color" : "#aaaaaa",
+        "selectedColor" : "#e42108",
+        "borderStyle" : "black",
+        "backgroundColor" : "#ffffff"
+		// #ifdef MP-WEIXIN
+		,
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "text" : "首页",
+                "iconPath" : "static/icon/index.png",
+                "selectedIconPath" : "static/icon/index3.png"
+            },
+            {
+                "pagePath" : "pages/dingd/dingd",
+                "text" : "工程",
+                "iconPath" : "static/icon/gongc.png",
+                "selectedIconPath" : "static/icon/gongc3.png"
+            },
+            {
+                "pagePath" : "pages/xiaox/xiaox",
+                "text" : "消息",
+                "iconPath" : "static/icon/xiaox.png",
+                "selectedIconPath" : "static/icon/xiaox3.png"
+            },
+            {
+                "pagePath" : "pages/my/my",
+                "text" : "我的",
+                "iconPath" : "static/icon/my.png",
+                "selectedIconPath" : "static/icon/my3.png"
+            }
+        ]
+		// #endif
+    }
+}

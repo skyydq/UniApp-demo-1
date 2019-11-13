@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"btn-click{ position: absolute; bottom:",[0,150],"; left:",[0,245],"; z-index: 999; width:",[0,260],"; height:",[0,90],"; background:rgba(0,0,0,.5); color:#fff; text-align: center; line-height: ",[0,90],"; font-size: 16px; border-radius:",[0,90],"; padding:0 ",[0,20],"; }\n.",[1],"swiper-qid .",[1],"uni-swiper-dot { width: 30px; height: 5px; border-radius: 0; }\n",],undefined,{path:"./pages/hello/hello.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/hello/hello.wxml') } }));

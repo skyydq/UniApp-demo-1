@@ -1,0 +1,133 @@
+.liaotian-top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 700upx;
+	height:90upx;
+	line-height: 90upx;
+	z-index: 99;
+	background:#f4f4f4;
+	display: flex;
+	justify-content: space-between;
+	padding:0 30upx;
+	padding-left:20upx;
+	/* #ifdef APP-PLUS */
+	padding-top:var(--status-bar-height);
+	/* #endif */
+}
+.liaot-fanhui text{
+	font-size: 20px;
+}
+.liaot-title{
+	font-size: 15px;
+	color:#333;
+}
+.liaot-shur{
+	display: flex;
+	position: fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	background:#f4f4f4;
+	padding:12upx 0;
+}
+.liaot-input{
+	border:solid 1px #ddd;
+	width:476upx;
+	background:#fff;
+	font-size: 14px;
+	color:#333;
+}
+.liaot-input{
+	padding:5upx 14upx 0 14upx;
+}
+.liaot-yuy text,.liaot-gengd text{
+	font-size: 25px;
+	padding-top: 2upx;
+	display: inline-block;
+	height:60upx;
+	line-height: 60upx;
+	padding-top:4upx;
+}
+.liaot-yuy{
+	width:90upx;
+	height:100%;
+	text-align: center;
+}
+.liaot-gengd{
+	width:180upx;
+	height:100%;
+	display: flex;
+	justify-content: center;
+}
+.liaot-gengd text{
+	padding:4upx 14upx 0 14upx;
+}
+.liaot-yuyin{
+	line-height: 50upx;
+	text-align: center;
+	color:#999;
+}
+
+
+.liaot-cont{
+	width:710upx;
+	padding:100upx 20upx 0 20upx;
+}
+.onhowe{
+	width:100%;
+	display: flex;
+	justify-content: flex-end;
+	margin:20upx 0;
+}
+.nohowe{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	margin:20upx 0;
+}
+.onhowe-cont,.nohowe-cont{
+	font-size: 14px;
+	color:#333;
+	background:#eee;
+	line-height: 24px;
+	padding:0 20upx;
+	max-width: 450upx;
+	border-radius: 14upx;
+}
+.onhowe-cont{
+	border-top-right-radius: 0;
+}
+.nohowe-cont{
+	border-top-left-radius: 0;
+}
+.nohowe-neir{
+	max-width: 490upx;
+	margin-left:14upx;
+}
+.onhowe-neir{
+	max-width: 490upx;
+	margin-right:14upx;
+}
+.nohowe-title,.onhowe-title{
+	font-size: 12px;
+	color:#999;
+	margin-bottom: 14upx;
+}
+.onhowe-title{
+	text-align: right;
+}
+.onhowe-img,.nohowe-img{
+	width:90upx;
+	height:90upx;
+	overflow: hidden;
+	border:solid 1px #ddd;
+	border-radius: 50%;
+}
+.onhowe-img image,.nohowe-img image{
+	width:100%;
+	height:100%;
+}
+.nohowe-zl{
+	display: flex;
+}

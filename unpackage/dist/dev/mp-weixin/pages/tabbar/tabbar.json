@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "index": "/pages/index/index",
+    "dingd": "/pages/dingd/dingd",
+    "xiaox": "/pages/xiaox/xiaox",
+    "my": "/pages/my/my"
+  }
+}

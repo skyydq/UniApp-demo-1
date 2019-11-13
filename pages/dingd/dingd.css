@@ -1,0 +1,83 @@
+.gongc-top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 690upx;
+	height:90upx;
+	line-height: 90upx;
+	z-index: 99;
+	background:#f4f4f4;
+	display: flex;
+	justify-content: space-between;
+	padding:0 30upx;
+	/* #ifdef APP-PLUS */
+	padding-top:var(--status-bar-height);
+	/* #endif */
+}
+.gongc-left{
+	font-size: 15px;
+	color:#333;
+}
+.gongc-right{
+	display: flex;
+	justify-content: space-between;
+}
+.gongc-right .gongc-icon{
+	font-size: 18px;
+	color:#666;
+}
+
+.gongc{
+	padding:0 20upx;
+	padding-top:90upx;
+}
+.gongc-list{
+	width:100%;
+	height:200upx;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20upx;
+	color:#fff;
+	position: relative;
+}
+.gc-bg{
+	position: absolute;
+	bottom:0;
+	right:0;
+	height:100%;
+	width:50%;
+	z-index: 1;
+}
+.gongc-fabu{
+	background:#7275f4;
+}
+.wup-zulin{
+	background:#f56b55;
+}
+.gongj-zhaopin{
+	background:#9bcd50;
+}
+.gongc-title{
+	height:60upx;
+	margin-left:40upx;
+	margin-top:64upx;
+	padding:0 20upx;
+	font-size: 18px;
+	text-align: center;
+	line-height: 50upx;
+	border-bottom: solid 1px #fff;
+}
+.gongc-img{
+	width:140upx;
+	height:140upx;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-top:30upx;
+	margin-right:40upx;
+	z-index: 10;
+	position: relative;
+}
+.gc-img{
+	width:100%;
+	height:100%;
+}

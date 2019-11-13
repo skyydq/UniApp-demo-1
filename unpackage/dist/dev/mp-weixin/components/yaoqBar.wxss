@@ -1,0 +1,30 @@
+.banzu-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  border-top: solid 1px #eee;
+  background: #fff;
+  color: #fff;
+}
+.banzu-nav .banzu-nav-left,
+.banzu-nav .banzu-nav-right {
+  font-size: 17px;
+  width: 50%;
+  background: #e03a3a;
+}
+.banzu-nav .banzu-nav-left text,
+.banzu-nav .banzu-nav-right text {
+  padding-left: 20rpx;
+}
+.banzu-nav .banzu-nav-right {
+  background: #3a6de0;
+}
+

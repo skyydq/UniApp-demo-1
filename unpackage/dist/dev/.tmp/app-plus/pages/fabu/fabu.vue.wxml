@@ -1,0 +1,1 @@
+<import src="/components/nav-bar.vue.wxml" /><template name="37eecb76"><view class="_view 37eecb76">这是发布页<template data="{{...$root['0'], ...$root[$kk+'37eecb76-0'],$root}}" is="2dec62c4"></template></view></template>

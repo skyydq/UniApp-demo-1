@@ -1,0 +1,140 @@
+.banzu-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 700rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  z-index: 99;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 30rpx;
+  padding-left: 20rpx;
+  border-bottom: solid 1px #eee;
+
+  padding-top: var(--status-bar-height);
+
+}
+.banzu-top .banzu-fanhui text {
+  font-size: 20px;
+}
+.banzu-top .banzu-title {
+  font-size: 15px;
+  color: #333;
+}
+.banzu-tab {
+  position: fixed;
+  left: 0;
+  top: 90rpx;
+
+  padding-top: var(--status-bar-height);
+
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  background: #fff;
+  z-index: 10;
+}
+.banzu-tab .tabbar {
+  width: 25%;
+  font-size: 14px;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.banzu-tab .active {
+  color: #ff2711;
+  border-bottom: solid 2px #ff2711;
+}
+.banzu-main {
+  width: 690rpx;
+  z-index: 1;
+  padding: 180rpx 30rpx 0 30rpx;
+}
+.banzu-main .banzu-cont {
+  background: #fff;
+  padding: 20rpx;
+  border-radius: 14rpx;
+  margin: 30rpx 0;
+}
+.banzu-main .bz-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.banzu-main .bz-top .bz-toux {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: solid 1px #ddd;
+  overflow: hidden;
+}
+.banzu-main .bz-top .bz-toux image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.banzu-main .bz-top .bz-title {
+  width: 330rpx;
+  padding-left: 20rpx;
+  line-height: 20px;
+  padding-top: 14rpx;
+}
+.banzu-main .bz-top .bz-title text {
+  display: block;
+  font-size: 15px;
+}
+.banzu-main .bz-top .bz-title text:nth-child(2) {
+  font-size: 13px;
+  color: #666;
+}
+.banzu-main .bz-top .bz-xinyu {
+  width: 200rpx;
+  font-size: 15px;
+  color: #126fd8;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: right;
+}
+.banzu-main .bz-center {
+  width: 100%;
+  height: 334rpx;
+  margin-top: 20rpx;
+  border-radius: 14rpx;
+  overflow: hidden;
+}
+.banzu-main .bz-center image {
+  width: 100%;
+  height: 100%;
+}
+.banzu-main .bz-bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20rpx;
+  height: 25px;
+  line-height: 25px;
+}
+.banzu-main .bz-bottom .bz-name {
+  font-size: 17px;
+}
+.banzu-main .bz-bottom .bz-xy {
+  font-size: 13px;
+  color: #666;
+}
+

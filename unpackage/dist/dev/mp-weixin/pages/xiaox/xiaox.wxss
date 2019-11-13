@@ -1,0 +1,132 @@
+.xiaoxi-top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 690rpx;
+	height:90rpx;
+	line-height: 90rpx;
+	z-index: 99;
+	background:#f4f4f4;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding:0 30rpx;
+	
+}
+.xiaox-left{
+	font-size: 15px;
+	color:#333;
+}
+.xiaox-right{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.xiaox-right .xiaox-icon1{
+	font-size: 17px;
+	color:#666;
+	display: block;
+	margin-right: 20rpx;
+}
+.xiaox-right .xiaox-icon2{
+	font-size: 22px;
+	color:#666;
+}
+.xiaox-neirong{
+	padding-top:90rpx;
+}
+.xiaox-list{
+	padding:0 20rpx;
+}
+.xiaox-url{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	border-bottom:solid 1px #eee;
+	padding:10rpx 0;
+}
+.xiaox-img-one,.xiaox-img-two{
+	border:solid 1px #eee;
+	width:120rpx;
+	height:120rpx;
+	border-radius: 14rpx;
+	overflow: hidden;
+}
+.xiaox-img-one image{
+	width:100%;
+	height:100%;
+}
+.xiaox-img-two{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.xiaox-img-two image{
+	width:49%;
+	height:49%;
+	border-radius: 4px;
+}
+.xiaox-title{
+	font-size: 16px;
+	color:#333;
+	margin-bottom:14rpx;
+}
+.xiaox-cont{
+	font-size: 14px;
+	color:#999;
+}
+.xiaox-list1{
+	width:470rpx;
+	padding:14rpx;
+}
+.xiaox-list2{
+	width:90rpx;
+	text-align: center;
+	padding:14rpx 0;
+}
+.xiaox-time{
+	font-size: 13px;
+	color:#999;
+	margin-bottom: 10rpx;
+}
+.xiaox-tishi{
+	display: inline;
+	font-size: 12px;
+	background:#dd0808;
+	color:#fff;
+	padding:4rpx 14rpx;
+	border-radius:34rpx;
+}
+.xiaox-bgcolor{
+	background:#F7F7F7;
+}
+.zanwuxx{
+	text-align: center;
+	font-size: 16px;
+	color:#aaa;
+}
+.zanwuxx .zanwu-icon{
+	font-size: 70px;
+	display: block;
+	color:#ddd;
+}
+

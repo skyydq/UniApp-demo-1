@@ -1,0 +1,172 @@
+.gongj-top {
+  position: relative;
+  width: 750rpx;
+  height: 340rpx;
+}
+.gongj-top .gongj-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 750rpx;
+  height: 340rpx;
+  z-index: 1;
+}
+.gongj-top .gongj-top-cont {
+  position: absolute;
+  top: 20rpx;
+  left: 35rpx;
+  z-index: 10;
+  text-align: center;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 680rpx;
+  height: 300rpx;
+  background: rgba(0, 0, 0, 0.3);
+}
+.gongj-top .gongj-top-cont .gongj-icon {
+  position: absolute;
+  top: 10rpx;
+  right: 20rpx;
+  color: #fff;
+}
+.gongj-top .gongj-top-cont .gongjcolor {
+  position: absolute;
+  top: 10rpx;
+  right: 20rpx;
+  color: #fff600;
+}
+.gongj-top .gongj-top-cont .gongj-toux {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+  border: solid 1px #eee;
+  margin: 0 auto;
+  margin-top: 20rpx;
+}
+.gongj-top .gongj-top-cont .gongj-top-zil {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20rpx;
+}
+.gongj-top .gongj-top-cont .gongj-top-zil .gongj-top-name {
+  font-size: 17px;
+  line-height: 40rpx;
+}
+.gongj-top .gongj-top-cont .gongj-top-zil .gongj-top-dizhi {
+  font-size: 14px;
+  line-height: 40rpx;
+}
+.gongj-center {
+  width: 690rpx;
+  padding: 0 30rpx;
+}
+.gongj-center .gongj-jianj {
+  margin-top: 30rpx;
+  font-size: 14px;
+  padding: 18rpx;
+  color: #555;
+  -webkit-box-shadow: 2rpx 4rpx 10rpx #ccc;
+          box-shadow: 2rpx 4rpx 10rpx #ccc;
+}
+.gongj-center .gongj-xingm {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 24rpx 0;
+  font-size: 15px;
+  line-height: 44rpx;
+}
+.gongj-center .gongj-xingm .xiangm,
+.gongj-center .gongj-xingm .banz,
+.gongj-center .gongj-xingm .renz,
+.gongj-center .gongj-xingm .dongtai {
+  border-bottom: solid 1px #eee;
+  line-height: 80rpx;
+}
+.gongj-center .gongj-xingm .xiangm text,
+.gongj-center .gongj-xingm .banz text,
+.gongj-center .gongj-xingm .renz text,
+.gongj-center .gongj-xingm .dongtai text {
+  color: #bbb;
+  margin-right: 10rpx;
+}
+.gongj-center .gongj-xingm .xiangm .zhiye,
+.gongj-center .gongj-xingm .banz .zhiye,
+.gongj-center .gongj-xingm .renz .zhiye,
+.gongj-center .gongj-xingm .dongtai .zhiye {
+  background: #5b69ef;
+  color: #fff;
+  margin-left: 20rpx;
+  display: inline-block;
+  padding: 6rpx 10rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 12px;
+}
+.gongj-center .gongj-xingm .xiangm .shiming,
+.gongj-center .gongj-xingm .banz .shiming,
+.gongj-center .gongj-xingm .renz .shiming,
+.gongj-center .gongj-xingm .dongtai .shiming {
+  background: #ff8400;
+  color: #fff;
+  display: inline-block;
+  padding: 8rpx 10rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  font-size: 12px;
+}
+.gongj-center .gongj-xingm .xiangm .shiming text,
+.gongj-center .gongj-xingm .banz .shiming text,
+.gongj-center .gongj-xingm .renz .shiming text,
+.gongj-center .gongj-xingm .dongtai .shiming text {
+  font-weight: 600;
+  color: #fff;
+  font-size: 13px;
+  margin-right: 4rpx;
+}
+.gongj-center .gongj-xingm .dongtai {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.gongj-center .gongj-gongz,
+.gongj-center .gongj-xiangm {
+  font-size: 16px;
+  margin-bottom: 10rpx;
+}
+.gongj-center .gongj-gongz .jianjie-neirong,
+.gongj-center .gongj-xiangm .jianjie-neirong {
+  font-size: 14px;
+  color: #666;
+  padding: 14rpx;
+}
+.gongj-page {
+  margin-bottom: 120rpx;
+}
+

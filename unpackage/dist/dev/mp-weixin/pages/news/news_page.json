@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "资讯详情页",
+  "usingComponents": {
+    "pinglun": "/components/ping-lun"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "搜索好友",
+  "usingComponents": {
+    "phone-search-list": "/components/phone-directory/phone-search-list"
+  }
+}

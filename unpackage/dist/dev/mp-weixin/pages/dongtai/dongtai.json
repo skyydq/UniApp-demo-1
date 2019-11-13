@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "个人动态",
+  "usingComponents": {
+    "nav-bar": "/components/nav-bar"
+  }
+}

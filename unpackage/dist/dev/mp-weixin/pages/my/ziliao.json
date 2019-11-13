@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "资料修改",
+  "usingComponents": {
+    "nav-bar": "/components/nav-bar"
+  }
+}

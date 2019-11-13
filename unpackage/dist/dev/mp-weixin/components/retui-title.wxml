@@ -1,0 +1,1 @@
+<view class="retui-title"><view class="retui-title-l">{{otitle}}</view><view class="retui-title-r"><navigator url="{{ourl}}" hover-class="none">更多 ></navigator></view></view>

@@ -1,0 +1,273 @@
+.me-top{
+	height:280rpx;
+	
+}
+.me-bg-img{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:280rpx;
+	z-index: 1;
+	
+}
+.me-nav{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	z-index: 10;
+	position: relative;
+	padding:0 30rpx;
+	color:#ddd;
+	font-size: 15px;
+	height:80rpx;
+	line-height: 80rpx;
+}
+.me-nav-icon{
+	font-size: 22px;
+}
+.me-bar{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	z-index: 10;
+	position: relative;
+	padding:30rpx;
+	background:rgba(255,255,255,.5);
+	height:100rpx;
+	margin:0 40rpx;
+	border-radius: 6px;
+}
+.bar-left{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.me-toux{
+	width:100rpx;
+	height:100rpx;
+	border-radius: 50%;
+	border:solid 1px #bbb;
+	overflow: hidden;
+}
+.title-otitle{
+	font-size: 15px;
+	color:#fff;
+}
+.title-oqianm{
+	font-size: 13px;
+	color:#eee;
+	height:40rpx;
+	line-height: 40rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+.toux-img{
+	width:100%;
+	height:100%;
+}
+.qiandao-jifen{
+	width:140rpx;
+	text-align: right;
+	position: absolute;
+	right:-18rpx;
+	color:#ecef04;
+	text-align: center;
+}
+.animation-opacity{
+	opacity: 0;
+}
+.me-title{
+	height:100rpx;
+	line-height: 40rpx;
+	padding:10rpx 14rpx;
+	width:360rpx;
+}
+.bar-rigth{
+	position: relative;
+	height:40rpx;
+	line-height: 40rpx;
+	font-size: 12px;
+	margin-top:30rpx;
+}
+.bar-qiandao{
+	border:solid 1px #fff;
+	color:#fff;
+	width:104rpx;
+	height:40rpx;
+	line-height: 42rpx;
+	text-align: center;
+}
+.me-cont{
+	font-size: 14px;
+	padding:0 40rpx;
+}
+.me-cont-one,.me-cont-two{
+	width:100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	border-bottom:solid 1px #f5f5f5;
+	padding:20rpx 0;
+}
+.me-icon1,.me-icon2{
+	width:25%;
+	padding-bottom:14rpx;
+	color:#777;
+	font-size: 13px;
+	text-align: center;
+	/* border:solid 1px #f5f5f5;
+	padding-top:4upx; */
+}
+.me-icon{
+	display: block;
+	height:60rpx;
+	line-height: 60rpx;
+	font-size: 30px;
+	margin:8rpx 0;
+}
+.me-jbzl .me-icon{
+	font-size: 27px;
+}
+.me-dtfb .me-icon{
+	color:#31d75c;
+}
+.me-sclb .me-icon{
+	color:#31c2d7;
+}
+.me-jbzl .me-icon{
+	color:#6775f5;
+}
+.me-wdjl .me-icon{
+	color:#fa4d19;
+}
+.me-wdbz .me-icon{
+	color:#b666d9;
+}
+.me-grzh .me-icon{
+	color:#f5ae18;
+}
+.me-cont-treey .me-icon{
+	font-size: 14px;
+	color:#666;
+	height:50rpx;
+	line-height:50rpx;
+}
+.me-icon3{
+	font-size: 25px;
+}
+.me-gcdd .me-icon{
+	color:#29d320;
+}
+.me-wdbq .me-icon{
+	color:#ffe400;
+}
+.me-jfdh .me-icon{
+	color:#14e2aa;
+}
+.me-jfsc .me-icon{
+	color:#ec1946;
+}
+.me-smrz .me-icon{
+	color:#af19e7;
+}
+.me-qyrz .me-icon{
+	color:#e29c14;
+}
+.me-xyrz .me-icon{
+	color:#aae214;
+}
+.me-cont-treey{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.me-lxwm .me-icon3{
+	color:#aaa;
+}
+.me-htxy .me-icon3{
+	color:#aaa;
+}
+.me-gywm .me-icon3{
+	color:#aaa;
+}
+.me-lxwm{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding:10rpx 0;
+	height:40rpx;
+	line-height: 40rpx;
+	width:40%;
+}
+
+/* 截取头像 */
+.huihua{
+	position: fixed;
+	z-index: 999;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#666;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+	display: none;
+}
+.huabu{
+	width:500rpx;
+	height:500rpx;
+	border:solid 1px #fff;
+	border-radius: 50%;
+}
+.queren{
+	position: absolute;
+	bottom:40rpx;
+	right:40rpx;
+	color:#fff;
+	font-size: 14px;
+	border:solid 1px #ccc;
+	padding:10rpx 20rpx
+}
+.tuodong{
+	width:100%;
+	height:100%;
+}
+.tuo-img{
+	width:100%;
+}
+.tuodong2{
+	width:100%;
+}
+
+/* 截取头像 end */
+

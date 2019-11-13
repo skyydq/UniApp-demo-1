@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选择位置",
+  "usingComponents": {
+    "ss-select-city": "/components/ss-select-city/ss-select-city"
+  }
+}

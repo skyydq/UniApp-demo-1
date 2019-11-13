@@ -1,0 +1,1 @@
+<import src="/components/phone-directory/phone-directory.vue.wxml" /><template name="01793c80"><view class="_view 01793c80"><view class="_view 01793c80"><template bindparamClick="handleProxy" data-eventid="{{'01793c80-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'01793c80-0'],$root}}" is="244968c2"></template></view></view></template>

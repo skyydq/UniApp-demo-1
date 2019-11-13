@@ -1,0 +1,76 @@
+{
+  "pages": [
+    "pages/tabbar/tabbar",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/hello/hello",
+    "pages/index/sous/sous",
+    "pages/dingd/dingd",
+    "pages/xiaox/xiaox",
+    "pages/my/my",
+    "pages/fabu/fabu",
+    "pages/login/login2",
+    "pages/login/wjmima",
+    "pages/my/shezhi/shezhi",
+    "pages/sousuo2/sousuo2",
+    "pages/xiaox/liaotian/liaotian",
+    "pages/xiaox/chat",
+    "pages/index/chengs/chengs",
+    "components/pictureTailor",
+    "pages/xiaox/phones/phones",
+    "pages/xiaox/phones/phone-search",
+    "pages/my/ziliao",
+    "pages/my/nicheng/nicheng",
+    "pages/news/news",
+    "pages/news/news_page",
+    "pages/gongjiang/gongjiang",
+    "pages/gongjiang/gongjiang-page",
+    "pages/banzu/banzu",
+    "pages/banzu/banzu-page",
+    "pages/osousuo/osousuo",
+    "pages/dongtai/dongtai",
+    "pages/dongtai/pinglun",
+    "pages/dongtai/fabiao"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "工无界",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#aaaaaa",
+    "selectedColor": "#e42108",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/index.png",
+        "selectedIconPath": "static/icon/index3.png"
+      },
+      {
+        "pagePath": "pages/dingd/dingd",
+        "text": "工程",
+        "iconPath": "static/icon/gongc.png",
+        "selectedIconPath": "static/icon/gongc3.png"
+      },
+      {
+        "pagePath": "pages/xiaox/xiaox",
+        "text": "消息",
+        "iconPath": "static/icon/xiaox.png",
+        "selectedIconPath": "static/icon/xiaox3.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/icon/my.png",
+        "selectedIconPath": "static/icon/my3.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap62.json"
+}

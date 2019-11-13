@@ -1,0 +1,1 @@
+<template name="2cf22d96"><view class="_view 2cf22d96 retui-title"><view class="_view 2cf22d96 retui-title-l">{{otitle}}</view><view class="_view 2cf22d96 retui-title-r"><navigator url="{{ourl}}" hover-class="none" class="_navigator 2cf22d96">更多 ></navigator></view></view></template>

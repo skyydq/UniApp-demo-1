@@ -1,0 +1,152 @@
+.gongj-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 700rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  z-index: 99;
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 30rpx;
+  padding-left: 20rpx;
+  border-bottom: solid 1px #eee;
+
+}
+.gongj-top .gongj-fanhui text {
+  font-size: 20px;
+}
+.gongj-top .gongj-title {
+  font-size: 15px;
+  color: #333;
+}
+.gongj-tab {
+  position: fixed;
+  left: 0;
+  top: 90rpx;
+
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  background: #fff;
+  z-index: 10;
+}
+.gongj-tab .tabbar {
+  width: 25%;
+  font-size: 14px;
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.gongj-tab .active {
+  color: #ff2711;
+  border-bottom: solid 2px #ff2711;
+}
+.gongj-main {
+  width: 100%;
+  z-index: 1;
+  padding-top: 184rpx;
+}
+.gongj-main .gongj-list {
+  background: #fff;
+}
+.gongj-main .gongj-list .gongj-xiangq {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 14rpx 30rpx;
+  border-bottom: solid 1px #eee;
+}
+.gongj-main .gongj-list .gongj-xiangq image {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+}
+.gongj-main .gongj-list .gongj-xiangq .gongj-xiangq-right {
+  width: 550rpx;
+  padding-left: 20rpx;
+  margin-top: 10rpx;
+  line-height: 50rpx;
+}
+.gongj-main .gongj-list .gongj-xiangq .gongj-xiangq-right .gongj-xiangq-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  line-height: 50rpx;
+}
+.gongj-main .gongj-list .gongj-xiangq .gongj-xiangq-right .gongj-xiangq-top .gongj-name {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 17px;
+}
+.gongj-main .gongj-list .gongj-xiangq .gongj-xiangq-right .gongj-xiangq-top .gongj-rix {
+  font-size: 20px;
+  color: #e9002c;
+}
+.gongj-main .gongj-list .gongj-xiangq .gongj-xiangq-right .gongj-xiangq-bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.gongj-main .gongj-list .gongj-xiangq .gongj-xiangq-right .gongj-xiangq-bottom .gongj-zhiwei {
+  font-size: 14px;
+  color: #666;
+}
+.gongj-main .gongj-list .gongj-xiangq .gongj-xiangq-right .gongj-xiangq-bottom .gongj-dizhi {
+  font-size: 14px;
+  color: #666;
+}
+.shaixuan-box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.4);
+}
+.shaixuan-box .shaixuan-zhiwei {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 400rpx;
+  background: #fff;
+  width: 100%;
+  padding: 40rpx 0;
+}
+.shaixuan-box .shaixuan-zhiwei .shaixuan-list {
+  height: 400rpx;
+  text-align: center;
+}
+.shaixuan-box .shaixuan-zhiwei .shaixuan-list .shaixuan-gongz {
+  font-size: 18px;
+  height: 80rpx;
+  line-height: 80rpx;
+  color: #666;
+}
+.shaixuan-box .shaixuan-zhiwei .shaixuan-list .active {
+  background: #eee;
+}
+

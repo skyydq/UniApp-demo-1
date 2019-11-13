@@ -1,0 +1,128 @@
+.gongj-top{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 700upx;
+	height:90upx;
+	line-height: 90upx;
+	z-index: 99;
+	background:#fff;
+	display: flex;
+	justify-content: space-between;
+	padding:0 30upx;
+	padding-left:20upx;
+	border-bottom: solid 1px #eee;
+	/* #ifdef APP-PLUS */
+	padding-top:var(--status-bar-height);
+	/* #endif */
+	.gongj-fanhui text{
+		font-size: 20px;
+	}
+	.gongj-title{
+		font-size: 15px;
+		color:#333;
+	}
+}
+.gongj-tab{
+	position: fixed;
+	left:0;
+	top:90upx;
+	/* #ifdef APP-PLUS */
+	padding-top:var(--status-bar-height);
+	/* #endif */
+	width:100%;
+	display: flex;
+	text-align: center;
+	background:#fff;
+	z-index: 10;
+	.tabbar{
+		width:25%;
+		font-size: 14px;
+		height:80upx;
+		line-height: 80upx;
+	}
+	.active{
+		color:#ff2711;
+		border-bottom:solid 2px #ff2711;
+	}
+}
+.gongj-main{
+	width:100%;
+	z-index: 1;
+	padding-top:184upx;
+	.gongj-list{
+		background:#fff;
+		.gongj-xiangq{
+			display: flex;
+			padding:14upx 30upx;
+			border-bottom:solid 1px #eee;
+			image{
+				width:120upx;
+				height:120upx;
+				border-radius: 50%;
+			}
+			.gongj-xiangq-right{
+				width:550upx;
+				padding-left:20upx;
+				margin-top:10upx;
+				line-height: 50upx;
+				.gongj-xiangq-top{
+					display: flex;
+					justify-content: space-between;
+					line-height: 50upx;
+					.gongj-name{
+						display: flex;
+						font-size: 17px;
+					}
+					.gongj-rix{
+						font-size: 20px;
+						color:#e9002c;
+					}
+				}
+				.gongj-xiangq-bottom{
+					display: flex;
+					justify-content: space-between;
+					.gongj-zhiwei{
+						font-size: 14px;
+						color:#666;
+					}
+					.gongj-dizhi{
+						font-size: 14px;
+						color:#666;
+					}
+				}
+			}
+		}
+	}
+}
+.shaixuan-box{
+	position: fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index: 999;
+	background:rgba(0,0,0,.4);
+	.shaixuan-zhiwei{
+		position: absolute;
+		bottom:0;
+		left:0;
+		height:400upx;
+		background:#fff;
+		width:100%;
+		padding:40upx 0;
+		.shaixuan-list{
+			height:400upx;
+			text-align: center;
+			.shaixuan-gongz{
+				font-size: 18px;
+				height:80upx;
+				line-height: 80upx;
+				color:#666;
+			}
+			.active{
+				background:#eee;
+			}
+		}
+	}
+}

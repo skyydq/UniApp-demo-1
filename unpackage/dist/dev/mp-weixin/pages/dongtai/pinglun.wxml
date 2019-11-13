@@ -1,0 +1,1 @@
+<view class="pinglun-page"><view class="dongtai">{{''+cont+''}}</view><pinglun vue-id="1" pinglData="{{datas}}" data-event-opts="{{[['^getdata',[['pingl']]]]}}" bind:getdata="__e" bind:__l="__l"></pinglun></view>

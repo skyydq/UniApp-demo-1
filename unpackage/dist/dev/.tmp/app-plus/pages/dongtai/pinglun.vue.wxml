@@ -1,0 +1,1 @@
+<import src="/components/ping-lun.vue.wxml" /><template name="66ca10a3"><view class="_view 66ca10a3 pinglun-page"><view class="_view 66ca10a3 dongtai">{{cont}}</view><template bindgetdata="handleProxy" data-eventid="{{'66ca10a3-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'66ca10a3-0'],$root}}" is="b6d24cd6"></template></view></template>

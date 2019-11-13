@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///F:/工无界/工无界-app/main.js"],"names":["Page","App"],"mappings":";;;;;;;;;;AAAA;AACA;AACI,qI;AACAA,IAAI,CAAC,+BAAYC,cAAZ,CAAD,CAAJ,C","file":"pages/admin/admin.js","sourcesContent":["import 'uni-pages';\nimport pageFactory from 'mpvue-page-factory'\n    import App from './pages/admin/admin.vue'\n    Page(pageFactory(App))"],"sourceRoot":""}

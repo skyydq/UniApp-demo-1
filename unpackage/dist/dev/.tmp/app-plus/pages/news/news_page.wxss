@@ -1,0 +1,166 @@
+.page-page {
+  padding: 40rpx 30rpx;
+}
+/* .banner2 {
+        height: 360upx;
+        overflow: hidden;
+        position: relative;
+        background-color: #ccc;
+    } */
+.banner-img {
+  width: 100%;
+}
+.banner-title {
+  max-height: 84rpx;
+  overflow: hidden;
+  font-size: 36rpx;
+  font-weight: 400;
+  line-height: 42rpx;
+  color: #333;
+  padding-bottom: 20rpx;
+}
+.article-meta {
+  padding-bottom: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #999;
+}
+.article-text {
+  font-size: 13px;
+  line-height: 50rpx;
+}
+.article-author {
+  font-size: 13px;
+}
+.article-content {
+  font-size: 15px;
+  margin-bottom: 30rpx;
+  color: #666;
+  line-height: 24px;
+}
+.mianze {
+  font-size: 12px;
+  color: #999;
+  line-height: 16px;
+}
+.sc-dz {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30rpx;
+  color: #666;
+  font-size: 12px;
+  text-align: center;
+}
+.sc-dz .active1 {
+  color: #de1515;
+}
+.sc-dz .active2 {
+  color: #f8d40a;
+}
+.sc-dz .dz,
+.sc-dz .fx,
+.sc-dz .sc {
+  border: solid 1px #ccc;
+  width: 200rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  border-radius: 70rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.sc-dz .dz .zxicon,
+.sc-dz .fx .zxicon,
+.sc-dz .sc .zxicon {
+  display: inline-block;
+}
+.sc-dz .fx text {
+  display: inline-block;
+  padding-right: 10rpx;
+}
+.fabiao {
+  margin: 40rpx 0;
+}
+.fabiao .fab-text {
+  border: solid 1px #ccc;
+  width: 670rpx;
+  padding: 10rpx 10rpx;
+  height: 140rpx;
+  font-size: 14px;
+}
+.fabiao .fab-btn {
+  background: #de1515;
+  color: #fff;
+  display: inline-block;
+  padding: 4rpx 10rpx;
+  font-size: 13px;
+  margin-top: 20rpx;
+}
+.pinglun {
+  border-top: dashed 1px #ddd;
+  font-size: 15px;
+  color: #333;
+  padding: 20rpx 0;
+  margin-top: 20rpx;
+}
+.pinglun .pinglun-cont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: solid 1px #eee;
+  padding: 20rpx 0;
+  margin-top: 20rpx;
+}
+.pinglun .pinglun-cont .pl-left {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10rpx;
+}
+.pinglun .pinglun-cont .pl-left .pl-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.pinglun .pinglun-cont .pl-right {
+  width: 600rpx;
+}
+.pinglun .pinglun-cont .pl-right .pl-title {
+  font-size: 13px;
+  color: #006abc;
+}
+.pinglun .pinglun-cont .pl-right .pl-title text {
+  font-size: 12px;
+  color: #666;
+  padding-left: 40rpx;
+}
+.pinglun .pinglun-cont .pl-right .pl-cont {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10rpx;
+  border-radius: 7px;
+}
+

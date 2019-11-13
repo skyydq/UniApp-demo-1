@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "工匠详情",
+  "usingComponents": {
+    "yaoq-bar": "/components/yaoqBar"
+  }
+}

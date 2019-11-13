@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "班组详情",
+  "usingComponents": {
+    "yao-bar": "/components/yaoqBar"
+  }
+}

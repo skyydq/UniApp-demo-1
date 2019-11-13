@@ -1,0 +1,109 @@
+.fabiao {
+  padding: 30rpx;
+}
+.fabiao .fabiao-cont {
+  border: solid 1px #ccc;
+  width: 690rpx;
+  height: 290rpx;
+  font-size: 15px;
+  color: #333;
+}
+.fabiao .fabiao-cont .fabiao-shuru {
+  width: 650rpx;
+  height: 250rpx;
+  padding: 20rpx;
+  line-height: 40rpx;
+}
+.fabiao .fabiao-cont .fabiao-shuru image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.fabiao .fabiao-img {
+  width: 690rpx;
+  margin: 20rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.fabiao .fabiao-img view {
+  margin: 0 6rpx;
+  position: relative;
+}
+.fabiao .fabiao-img view text {
+  position: absolute;
+  top: -10rpx;
+  right: -10rpx;
+  font-size: 20px;
+  display: inline-block;
+  height: 40rpx;
+  width: 40rpx;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  line-height: 40rpx;
+  background: #f94646;
+}
+.fabiao .fabiao-img view .fbImg {
+  width: 160rpx;
+  height: 160rpx;
+}
+.fabiao .fabiao-view {
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-top: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.fabiao .fabiao-view .fabiao-xiangc text {
+  color: #aaa;
+  font-size: 18px;
+  display: inline-block;
+  padding-right: 26rpx;
+}
+.fabiao .fabiao-view .fabiao-xiangc text:nth-child(1) {
+  font-size: 20px;
+}
+.fabiao .fabiao-view .fabiao-queren {
+  font-size: 17px;
+  color: #ea3546;
+}
+.fabiao-bottom {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 430rpx;
+  background: #eee;
+  padding-top: 20rpx;
+}
+.fabiao-bottom .fabiao-biaoqing {
+  height: 360rpx;
+  padding: 0 25rpx;
+}
+.fabiao-bottom .fabiao-biaoqing image {
+  width: 60rpx;
+  height: 60rpx;
+  padding: 10rpx 20rpx;
+}
+.fabiao-bottom .fabaio-xiaol {
+  background: #f5f5f5;
+  height: 70rpx;
+}
+.fabiao-bottom .fabaio-xiaol text {
+  display: inline-block;
+  height: 70rpx;
+  width: 80rpx;
+  text-align: center;
+  font-size: 22px;
+  line-height: 70rpx;
+  color: #666;
+  background: #eee;
+}
+

@@ -1,0 +1,1 @@
+<view><view class="nicheng-xiugai"><view class="nicheng">设置昵称：</view><input class="nicheng-input" type="text" focus data-event-opts="{{[['input',[['__set_model',['','oname','$event',[]]]]]]}}" value="{{oname}}" bindinput="__e"/></view><view data-event-opts="{{[['tap',[['nichengWancheng',['$0'],['oname']]]]]}}" class="ziliao-right" bindtap="__e">保存</view></view>

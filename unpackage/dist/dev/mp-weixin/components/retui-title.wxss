@@ -1,0 +1,29 @@
+
+.retui-title{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 0 28rpx;
+	height: 100rpx;
+	line-height: 100rpx;
+}
+.retui-title-l{
+	color:#000;
+	font-size: 15px;
+	font-weight: 600;
+}
+.retui-title-r{
+	color:#666;
+	font-size: 12px;
+}
+

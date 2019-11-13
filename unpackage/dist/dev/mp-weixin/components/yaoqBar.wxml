@@ -1,0 +1,1 @@
+<view class="banzu-nav"><view data-event-opts="{{[['tap',[['lianx',['$event']]]]]}}" class="banzu-nav-left" bindtap="__e">{{''+barLeft}}<text class="iconfont icon-shoujihao"></text></view><view class="banzu-nav-right">项目邀请<text class="iconfont icon-qunfa"></text></view></view>
